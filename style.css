@@ -36,6 +36,17 @@ p {
   text-align: left;
 }
 
+.banner-2 {
+  background-image: url('images/02.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 150px;
+  text-align: left;
+  display: flex;
+
+
+}
+
 .banner h1 {
   color: white;
   font-size: 40px;
@@ -154,6 +165,13 @@ p {
 @media (min-width: 1000px) {
   .container {
     width: 800px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .card-white{
+    width: auto;
   }
 }
 
