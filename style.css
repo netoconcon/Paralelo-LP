@@ -28,6 +28,11 @@ p {
   font-size: 30px;
 }
 
+.item{
+  text-align: center;
+  width: 100%;
+}
+
 .banner {
   background-image: url('images/background.jpg');
   background-size: cover;
