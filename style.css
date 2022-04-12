@@ -115,17 +115,40 @@ p {
 }
   
 /* Container media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
 @media (min-width: 500px) {
   .container {
     width: 400px;
+  }
+
+  .card-white {
+    width: auto;
   }
 }
 
 
 @media (min-width: 800px) {
   .container {
-    width: 600px;
+    width: 800px;
   }
+  .cards {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .card-white{
+    width: auto;
+  }
+
 }
 
 @media (min-width: 1000px) {
@@ -133,9 +156,6 @@ p {
     width: 800px;
   }
 }
-
-
-
 
 
 
