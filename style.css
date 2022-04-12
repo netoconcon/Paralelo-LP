@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: #404042;
   font-family: Chivo;
 }
@@ -18,18 +18,26 @@ p {
   margin: auto;
 }
 
+#logo{
+  width: 300px;
+}
+
+.subheader{
+  color: #EFDAE6;
+  font-size: 30px;
+}
 
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+  background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
-  text-align: center;
+  padding: 150px 150px;
+  text-align: left;
 }
 
 .banner h1 {
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   margin: 0;
 }
 
